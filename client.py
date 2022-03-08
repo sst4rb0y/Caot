@@ -48,7 +48,7 @@ def get_mess(client:socket, server_ip:str, username:str):
         try:
             date = client.recv(1024)
             if not date:
-                print('[%s] 失去服务器的连接:%s ' % (ctime(), str(server_ip)))
+                print('[%s] 失去服务器的连接:%s ' % (ctime(), server_ip))
                 break
             print(date.decode('utf-8'))
             mess_text.insert(END, date.decode('utf-8'))
