@@ -1,4 +1,4 @@
-# Caot
+## Caot
 python编写的极简Caot聊天室，多人在线匿名聊天
 
 ## Version 2.0.0
