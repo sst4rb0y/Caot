@@ -1,7 +1,6 @@
 # coding : utf-8
 
-from base64 import encode
-from glob import glob
+
 import socket
 import threading
 from time import ctime

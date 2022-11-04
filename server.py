@@ -6,6 +6,7 @@ from time import ctime
 
 group = []
 
+
 def tcp_link(client_socket, ip_addr):
     global group
     print('新的连接:' + str(ip_addr))
